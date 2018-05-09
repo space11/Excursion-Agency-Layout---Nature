@@ -1,0 +1,8 @@
+// FLOAT LEFT CLEAR FIX
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

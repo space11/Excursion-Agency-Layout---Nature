@@ -1,0 +1,21 @@
+cdn: 34 building a custom grid @32:33
+
+05.05.2018
+good practice:
+* Set font-size to 62.5% in html
+* Use box-sizing: border-box; at body tag and than ingerit it in *,::after,::before selectors
+* The 7-1 Pattern (The 7 folders) 7 different folders for partials and 1 main file that will import other files into and compile stylesheet
+    base/           // -> basic project definitions
+    components/     // -> one file for each component
+    layout/         // -> overall layout of the project
+    pages/          // -> styles for specific pages of the project
+    themes/         // -> styles fot diferent visual themes
+    abstract/       // -> codet that doesent output any css, such as variables and mixins
+    vendors/        // -> 3th party css
+
+09.05.2018
+Atribute selector []
+[alt=logo]     // select selecotrs with atribute alt equal logo
+[class^="col"] // select class starts with 'col'
+[class=$"col"]  // select class ends with 'col'
+[class*="col"]                // contain
