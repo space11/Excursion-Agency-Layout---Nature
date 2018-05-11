@@ -19,3 +19,8 @@ Atribute selector []
 [class^="col"] // select class starts with 'col'
 [class=$"col"]  // select class ends with 'col'
 [class*="col"]                // contain
+
+11.05.2018
+When we hover composition than select photo that is not hover
+css: composition:hover composition__photo:not(:hover) { }
+scss: &:hover &__photo:not(:hover) { }
