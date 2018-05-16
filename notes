@@ -24,3 +24,7 @@ Atribute selector []
 When we hover composition than select photo that is not hover
 css: composition:hover composition__photo:not(:hover) { }
 scss: &:hover &__photo:not(:hover) { }
+
+15.05.2018
+Applays styling to all boxes that  are created by an element
+ box-decoration-break: clone;
