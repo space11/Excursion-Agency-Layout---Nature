@@ -28,3 +28,6 @@ scss: &:hover &__photo:not(:hover) { }
 15.05.2018
 Applays styling to all boxes that  are created by an element
  box-decoration-break: clone;
+
+ 13.06.2018
+ Finish on Footer at 00:11:19
