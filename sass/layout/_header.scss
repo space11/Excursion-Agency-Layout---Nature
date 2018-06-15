@@ -23,7 +23,7 @@
 
   &__text-box {
     position: absolute;
-    @include central-horizontal;
+    @include center-horizontly;
     text-align: center;
   }
 }

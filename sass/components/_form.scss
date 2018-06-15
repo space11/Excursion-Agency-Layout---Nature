@@ -78,7 +78,7 @@
       height: 1.3rem;
       width: 1.3rem;
       position: absolute;
-      @include central-horizontal;
+      @include center-horizontly;
       background-color: $color-primary;
       opacity: 0;
       transition: all 0.2s;
